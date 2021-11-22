@@ -4,6 +4,7 @@ const searchButton =  document.getElementById('button');
 
 var data;
 
+
 function empty(){
         var div = document.createElement('div');
         div.classList.add('empty');

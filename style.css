@@ -370,5 +370,23 @@ main{
 }
 
 
+/* media query */
+@media only screen and (max-width: 540px){
+    #serchBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
 
+    #button{
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    #fav-movie-page{
+        font-size: 15px;
+    }
+
+}
 
